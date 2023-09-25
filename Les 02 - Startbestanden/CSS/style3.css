@@ -1,0 +1,25 @@
+
+#container{
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+
+}
+#yellow{
+    background-color: yellow;
+
+}

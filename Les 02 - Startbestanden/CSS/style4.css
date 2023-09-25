@@ -1,0 +1,26 @@
+body{
+    font-family: arial, sans-serif;
+}
+.section{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: solid 3px rgb(20, 20, 20);
+    border-radius: 10px;
+}
+#red{
+    background-color: #e6a2a2;
+    color: #600;
+    font-family: Martian Mono;
+}
+#blue{
+    background-color: #a2c4e6;
+    color: #004080;
+    font-family: Dancing Script;
+}
+#green{
+    background-color: #a2e6c4;
+    color: #00663d;
+    font-family: Dela Gothic One;
+    
+}
