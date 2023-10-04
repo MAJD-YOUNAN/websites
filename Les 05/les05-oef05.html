@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    font-family: sans-serif;
+}
+
+*{
+    margin-bottom: 5px;
+}
+
+
+select{
+    width: 170px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+fieldset{
+    margin-left: 0;
+    width: 143px;
+    box-shadow: 0 2px 2px 0 gray;
+}
+
+#knop{
+    width: 170px;
+    height: 25px;
+    text-align: center;
+}
+
+.geel:hover{
+    background-color: rgb(240, 240, 154);
+}
+
+    </style>
+</head>
+<body>
+
+    <div>
+<form method="get" action="https://tm-statweb.be/forms.php">
+
+<div ><label class="geel" for="voornaam"></label>voornaam:</div>
+<input type="text" name="voornaam" id="voornaam">
+
+<div><label class="geel" for="familienaam"></label>familienaam:</div>
+<input type="text" name="familienaam" id="familienaam">
+
+<div><label class="geel" for="adres"></label>adres:</div>
+<input type="text" name="adres" id="adres">
+
+<div><label for="provincie"></label>provincie:</div>
+<select name="provincie" id="provincie">
+    <option value="antwerpen">antwerpen</option>
+    <option value="limburg" selected>limburg</option>
+    <option value="oostvlanderen">oostvlanderen</option>
+    <option value="antwerpen">antwerpen</option>
+    <option value="antwerpen">antwerpen</option>
+    <option value="antwerpen">antwerpen</option>
+</select>
+
+<fieldset>
+    <legend>Geslacht</legend>
+<label for="man">
+    <input type="radio" id="man" name="geslacht" value="man"> man
+</label>
+<label for="vrouw">
+    <input type="radio" id="vrouw" name="geslacht" value="vrouw">vrouw
+</label>
+<label for="ander">
+    <input type="radio" id="ander" name="geslacht" value="ander">ander
+</label>
+</fieldset>
+
+<label for="file">Foto</label>
+<input type="file">
+
+<div></div>
+
+<label for="check">Ik ga akkoord..</label>
+<input type="checkbox" name="check" value="cheked">
+
+<div></div>
+
+<input type="submit" name="knop" id="knop" value="Registreren">
+
+
+
+
+</form>
+
+
+
+    </div>
+    
+</body>
+</html>

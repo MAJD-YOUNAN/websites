@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    font-family: sans-serif;
+}
+
+fieldset{
+    width: 400px;
+    margin-bottom: 20px;
+    background-color: beige;
+    height: 80px;
+    padding-top: 50px;
+   
+}
+
+#knop{
+    width: 429px;
+    background-color: beige;
+    height: 80px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+legend{
+    width: auto;
+    background-color: brown;
+    font-size: 22px;
+    color: white;
+    padding: 10px;
+    
+}
+
+    </style>
+</head>
+<body>
+
+<div>
+
+    <form method="post" action="https://tm-statweb.be/forms.php">
+
+        
+<fieldset>
+    <legend>Geslacht</legend>
+<label for="man">man
+    <input type="radio" id="man" name="gender" value="man">
+</label>
+
+<label for="vrouw">vrouw
+    <input type="radio" id="vrouw" name="gender" value="value">
+</label>
+
+<label for="ander">ander
+    <input type="radio" id="ander" name="gender" value="ander">
+</label>
+</fieldset>
+
+
+
+<fieldset id="fieldset2">
+    <legend>Kleur Ogen</legend>
+    <label for="bruin">bruin
+        <input type="radio" id="bruin" name="kleur" value="bruin">
+    </label>
+    
+    <label for="groen">groen
+        <input type="radio" id="groen" name="kleur" value="groen">
+    </label>
+    
+    <label for="blauw">blauw
+        <input type="radio" id="blauw" name="kleur" value="blauw">
+    </label>
+
+    <label for="ander">grijs
+        <input type="radio" id="grijs" name="kleur" value="grijs">
+    </label>
+    </fieldset>
+
+    <input type="submit" name="knop" id="knop" value="Registreren">
+
+</form>
+
+</div>
+    
+</body>
+</html>
