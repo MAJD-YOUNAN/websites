@@ -1,0 +1,243 @@
+/*
+#572eea
+#5b5be8
+#000
+#ebeae0
+#ff5252
+#fff
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+body{
+    font-family: 'Karma', serif;
+}
+
+h1, h2, a{
+    font-family: 'Marmelad', sans-serif;
+}
+
+#container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+header{
+    
+    background-image: url(../img/big/red-room-test-0012.jpg);
+    background-position: center center;
+    min-height: 100vh;
+    padding: 120px 40px 0;
+
+    
+}
+
+h1{
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    line-height: 60px;
+
+}
+
+
+/*--- MENU ---*/
+
+#menuButton{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    background: #5b5be8;
+    width: 60px;
+    height: 80px;
+    border-radius: 30px 30px 0 0 ;
+    padding: 16px 4px 0;
+    
+    background-image: url(../img/SVG/close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    z-index:1;
+}
+
+nav ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #572eea;
+    
+    padding: 80px 40px;
+    list-style: none;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+
+
+
+/* lijst verbergen */
+.menuVerborgen ul{
+    display: none;
+}
+
+/* streepjes wel */
+.menuVerborgen #menuButton .streep{
+    background-image: url(../img/SVG/wiggle.svg);
+    height: 20px;
+}
+
+/* kruis weg */
+.menuVerborgen #menuButton{
+     background-image: none;
+}
+
+/*---///---*/
+
+main{
+    background-color: #ebeae0;
+}
+
+section{
+    padding: 80px 0px 0px;
+}
+
+.tekstcontent{
+    padding: 0 40px 60px;
+}
+
+h2{
+    font-size: 40px;
+    
+}
+
+h2:after{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 5px;
+    background-color: #000;  
+    margin: 20px 0 40px;
+    
+    border-radius: 2px;
+    
+}
+
+p{
+    padding-bottom: 20px;
+    line-height: 150%;
+}
+
+p:first-of-type{
+    font-weight: bold;
+}
+
+.imgcontent{
+    background-image: url(../img/big/Verner-Panton-7.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+
+#lighting .imgcontent{
+    background-image: url(../img/big/louis-poulsen-panthella-mini-bordslampa.jpg);
+}
+
+#interior .imgcontent{
+    background-image: url(../img/big/Red-room-0221.jpg);
+}
+
+footer{
+    background-color: #000;
+    color: #ff5252;
+    padding: 40px 40px 240px;
+    text-align: center;
+}
+
+@media(min-width:700px){
+    body{
+        background-color: #572eea;
+    }
+    
+    header{
+        padding-top: 40px;
+    }
+    
+    h1{
+        font-size: 120px;
+        line-height: 100px
+    }
+    
+    /*--- NAV---*/
+    #menuButton{
+        display: none;
+    }
+    
+    .menuVerborgen ul, nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav{
+        padding-bottom: 120px;
+    }
+    
+    nav ul{
+        min-height: auto;
+        padding: 10px;
+        background-color: transparent;
+        position: static;
+    }
+    
+    nav ul li a{
+        color: #fff;
+        padding: 0 20px;
+    }
+    
+    /*---///---*/
+    
+    #verner{
+        background-color: #ff5252;
+    }
+    
+    #interior{
+        background-color: #5b5be8;
+    }
+    
+    section{
+        display: flex;
+        
+        padding-top: 0;
+    }
+    
+    .tekstcontent,.imgcontent{
+        width: 50%;
+    }
+    
+    .tekstcontent{
+        padding-top: 40px;
+    }
+    
+    .imgcontent{
+        height: auto;
+    }
+    
+   
+}

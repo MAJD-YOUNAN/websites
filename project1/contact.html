@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">MAJD</a>
+        <nav class="navigation">
+            <a href="portfolio.html">Portfolio</a>
+            <a href="cv.html">CV</a>
+            <a href="ervaring.html">Ervaring</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="contact.html" class="selected">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="contact-info">
+            <p>Contact Info:</p>
+            <p><i class="fa-regular fa-envelope"></i> r0933912@student.thomasmore.be</p>
+            <p><i class="fa-solid fa-phone"></i> (123) 456-7890</p>
+            <p><i class="fa-solid fa-location-dot"></i> Antwerpsestraat 99, 2500 Lier</p>
+        </div>
+
+        <div id="iconsContact">
+
+            <a href="https://www.instagram.com/majd_younan/?hl=en" target="_blank"><img src="img/icon/instagram.png" alt="instagram link" width="40"></a>
+            <a href="https://be.linkedin.com/in/majd-younan-5713a1239" target="_blank"><img src="img/icon/linkedin.png" alt="linkedin link" width="40"></a>
+            <a href="https://www.facebook.com/ThomasMoreBE/" target="_blank"><img src="img/icon/fb.png" alt="fb link" width="40"></a>
+            <a href="https://www.behance.net/search/projects?search=thomas%20more%20university" target="_blank"><img src="img/icon/be.png" alt="be link" width="40"></a>
+            <a href="https://www.pinterest.com/thomasmorebe/" target="_blank"><img src="img/icon/pinterest.png" alt="pinterest link" width="40"></a>
+     </div>
+
+
+        <section id="contact-section">
+            
+            <div class="contact-form">
+                <h2>Ik zou graag van u horen!</h2>
+                <form id="contact-form" action="process_form.php" method="post">
+                    <label for="name">Naam:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="onderwerp">Onderwerp:</label>
+                    <input type="text" id="onderwerp" name="onderwerp" required>
+
+                    <label for="message">Bericht:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Verzenden</button>
+                </form>
+            </div>
+
+
+            
+            <div id="google-maps">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.614991555122!2d4.563851776158679!3d51.134009337912694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3fc7d3dedf437%3A0x98e97032e240eff9!2sThomas%20More%20-%20Campus%20Lier!5e0!3m2!1sen!2sbe!4v1697616347133!5m2!1sen!2sbe" 
+                width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+</html>
