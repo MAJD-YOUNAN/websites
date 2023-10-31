@@ -1,0 +1,112 @@
+/*body background-color: #231f20
+gold color: #fca311;
+white color: #e5e5e5;*/
+
+
+/*-------header---------*/
+
+.container {
+    background-color: #231f20;
+    color: #e5e5e5;
+}
+
+header{
+ padding: 35px;
+}
+
+.navigatie a{
+    color: #e5e5e5;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 550;
+    }
+    .navigatie :hover{
+        color:#fca311;
+    }
+
+    @media (max-width: 1000px) {
+        .navigatie a {    
+            margin: 0 auto !important;
+            margin-top: 20px !important;
+        }
+        .navigatie{
+            text-align: center;
+            justify-content: center;
+        }
+    }
+
+
+    #logo{
+        font-size: 25px;
+        color: #fca311;
+    }
+
+ 
+
+/*---------main-----------*/
+
+main{
+    padding: 60px;
+}
+
+#leesMeer{
+    font-size: 20px;
+}
+#leesMeer a{
+    color: #fca311;
+}
+
+#imgHome{
+    padding-left: 30px;
+}
+
+#lijnHome{
+
+    border: solid 1px #fca311;
+}
+@media (max-width: 1000px){
+    #lijnHome{
+
+        display: none;
+    }
+    #section2Home {
+        display: flex !important;
+        flex-direction: column !important; /* Stack the icons and text vertically */
+        align-items: center !important; /* Center the icons horizontally */
+        padding-top: 20px !important; /* Add some top padding for spacing */
+      }
+    
+      #iconsHome {
+        display: flex !important;
+        flex-direction: row !important; /* Display the icons in a row */
+        justify-content: center !important; /* Center the icons horizontally */
+        gap: 10px !important; /* Add space between the icons */
+      }
+}
+
+#section2Home{
+    padding-top: 50px;
+}
+
+.icon{
+    margin-left: 6px;
+}
+
+.zigzag{
+    margin-top: 100px;
+    text-align: center;
+    opacity: 0.5;
+    margin-bottom: 100px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.custom-link {
+    text-decoration: none;
+}

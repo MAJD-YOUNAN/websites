@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202020
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #E9E9E9;
+}
+
+#jean {
+    margin-left: 150px; 
+    padding-top: 50px;
+    font-family: Arial black;
+    font-size: 40px;
+    
+}
+
+#bas {
+    background-image: url(../img/basquiat-portrait.jpg);
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 225px;
+    margin-left: 680px;
+    margin-top: -125px;
+    
+}
+
+#the {
+    color: #C43A14 ;
+    padding-left: 290px;
+    font-family: arial;
+    font-style: italic;
+    
+}
+
+ul {
+    display: flex;
+    margin-left: 180px;
+    list-style: none;
+    font-family: arial;
+
+}
+
+li {
+    margin-left: 25px;
+    text-decoration: none;
+    
+}
+
+li a {
+    color: black;
+}
+#home {
+    background-color: yellow;
+    padding: 5px;
+}
+.fes {
+    margin-top: 5px;
+}
+a{
+    text-decoration: none;
+}
+
+#firsth3 {
+    font-family: arial;
+    width: 550px;
+    margin: 100px auto;
+    margin-bottom: 10px;
+    font-size: 17px;
+    margin-left: 215px
+    
+    
+}
+
+#text1 {
+    font-family: arial;
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+#pic1 {
+    background-image: url(../img/delta.jpg);
+    background-repeat: no-repeat;
+    width: 928px;
+    height: 265px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.dateblok {
+    background-color: black;
+    color: gold;
+    width: 300px;
+    font-size: 45px;
+    font-family: arial black;
+    margin-left: 15px;
+    padding-left: 10px;
+    
+}
+
+#bloksflex1 {
+    display: flex;
+}
+
+#bloksflex2 {
+    display: flex;
+}
+
+#december {
+    margin-top: 20px;
+}
+#during {
+    margin-top: 20px;
+}
+#billed {
+    margin-top: 20px;
+}
+#he {
+    margin-top: 20px;
+}
+
+#blok1para {
+    background-color: #C8C8C8;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    width: 300px;
+    margin-bottom: 10px;
+    font-family: arial;
+    
+}
+#blok2para {
+    background-color: #C8C8C8;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 75px;
+    width: 300px;
+    margin-bottom: 10px;
+    font-family: arial;
+    
+}
+#blok3para {
+    background-color: #C8C8C8;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 56px;
+    width: 300px;
+    margin-bottom: 10px;
+    font-family: arial;
+}
+#blok4para {
+    background-color: #C8C8C8;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 57px;
+    width: 300px;
+   margin-bottom: 10px; 
+    font-family: arial;
+}
+#blok5para {
+    background-color: #C8C8C8;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 131px;
+    width: 300px;
+    margin-bottom: 10px;
+    font-family: arial;
+}
+#blok6para {
+    background-color: #C8C8C8;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 115px;
+    width: 300px;
+    margin-bottom: 10px;
+    font-family: arial;
+}
+
+#text2 {
+    
+    width: 550px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: arial;
+        
+}
+
+#pic2 {
+    background-image: url(../img/nile.jpg);
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 455px;
+    margin-top: 100px;
+}
+
+#footer {
+    color: gold;
+    background-color:#0C0C0C ;
+    padding: 30px;
+    text-align: center;
+    font-family: arial;
+    
+}
+
+#bloks a {
+    color: #C43A14;
+    text-decoration: underline;
+}
