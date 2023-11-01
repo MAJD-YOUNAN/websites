@@ -72,16 +72,16 @@ main{
     }
     #section2Home {
         display: flex !important;
-        flex-direction: column !important; /* Stack the icons and text vertically */
-        align-items: center !important; /* Center the icons horizontally */
-        padding-top: 20px !important; /* Add some top padding for spacing */
+        flex-direction: column !important; 
+        align-items: center !important;
+        padding-top: 20px !important;
       }
     
       #iconsHome {
         display: flex !important;
-        flex-direction: row !important; /* Display the icons in a row */
-        justify-content: center !important; /* Center the icons horizontally */
-        gap: 10px !important; /* Add space between the icons */
+        flex-direction: row !important; 
+        justify-content: center !important;
+        gap: 10px !important;
       }
 }
 
@@ -114,9 +114,9 @@ h2{
 
 /*-------------footer-----------------*/
 
-/* Add this CSS to your existing stylesheet or create a new one for footer styles */
 
-/* Footer styles */
+
+
 footer {
     background-color: #231f20;
     color: #e5e5e5;
@@ -125,20 +125,20 @@ footer {
     font-size: 16px;
   }
   
-  /* Footer columns */
+
   footer .col-6 {
     display: flex;
     align-items: center;
   }
   
-  /* Copyright symbol */
+
   footer .col-6::before {
     content: "\00a9";
     font-size: 20px;
     margin-right: 5px;
   }
   
-  /* Contact information */
+ 
   footer .col-6 p {
     margin: 5px 0;
   }

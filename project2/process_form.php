@@ -2,7 +2,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
     $email = $_POST["email"];
-    $message = $_POST["message"];
+    $message = $_POST["vraag"];
 
     // Validation
     if (empty($name) || empty($email) || empty($message) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Set the recipient email address
-    $to = "r0933912@student.thomasmore.be";
+    $to = "majd2000younan@gmail.com";
 
     // Set email subject
     $subject = "Contact Form Submission from $name";
@@ -25,13 +25,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Send the email
     if (mail($to, $subject, $message, $headers)) {
-        // Redirect to a thank-you page
-        header("Location: bedankt.html");
-        exit();
-    } else {
-        // Handle email sending failure
-        header("Location: contact.html?error=2");
-        exit();
-    }
+    // Redirect to a thank-you page
+    header("Location: bedankt.html");
+    exit();
+} else {
+    // Handle email sending failure
+    header("Location: contact.html?error=2&message=Email%20sending%20failed");
+    exit();
 }
+
 ?>
