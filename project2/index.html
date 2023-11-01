@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Majd Younan</title>
+    <title>Majd Younan - Home</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
@@ -13,14 +14,14 @@
 
       <header class="row align-items-center">
 
-        <div id="logo" class="col-12 col-lg-7">MAJD</div>
+        <div id="logo" class="col-12 col-lg-7"><a href="index.html" style="text-decoration: none; color: #fca311;">
+          MAJD</a></div>
     
         <nav class="col-12 col-lg-5 navigatie d-flex justify-content-end flex-nowrap">
-            <a href="#" class="mx-3">Portfolio</a>
-            <a href="#" class="mx-3">CV</a>
-            <a href="#" class="mx-3">Ervaring</a>
-            <a href="#" class="mx-3">Hobbies</a>
-            <a href="#" class="mx-3">Contact</a>
+            <a href="index.html" class="mx-3">Home</a>
+            <a href="cv.html" class="mx-3">CV</a>
+            <a href="hobbies.html" class="mx-3">Hobbies</a>
+            <a href="contact.html" class="mx-3">Contact</a>
 
         </nav>     
     
@@ -32,7 +33,14 @@
 
     <div id="textBlok1" class="col">
       <p>"Hey, ik ben Majd Younan, een webdesigner en -ontwikkelaar. Mijn passie ligt in het creëren van online ervaringen die een positieve indruk achterlaten. Laten we verbinden via code en design, en iets bijzonders op het web creëren ;) " </p>
-      <h4 id="leesMeer"><a href="">Lees meer</a></h4>
+      <h4 id="leesMeer"><a href="cv.html">Lees meer</a></h4>
+      <button id="hire-button-home" class="hire-button" style="margin-bottom: 10px;">
+        Huur me in</button>
+      <script>
+        document.getElementById('hire-button-home').addEventListener('click', function() {
+  window.location.href = 'contact.html';
+});
+      </script>
     </div>
 
     <div id="imgHome" class="col-md"><img src="img/InShot.jpg" class="img-fluid" alt="" width="500"></div>
@@ -44,49 +52,52 @@
     <div class="col-8"><hr id="lijnHome" width="500px"></div>
 
     <div class="col-4" id="iconsHome">
-      <a href=""><img class="icon" src="img/icon/instagram.png" width="40" alt="instagram"></a>
-      <a href=""><img class="icon" src="img/icon/linkedin.png" width="40" alt="linkedin"></a>
-      <a href=""><img class="icon" src="img/icon/fb.png" width="40" alt="facebook"></a>
-      <a href=""><img class="icon" src="img/icon/be.png" width="40" alt="behance"></a>
-      <a href=""><img class="icon" src="img/icon/pinterest.png" width="40" alt="pinterest"></a>
+      <a href="https://www.instagram.com/majd_younan/?hl=en" target="_blank">
+        <img class="icon" src="img/icon/instagram.png" width="40" alt="instagram"></a>
+      <a href="https://be.linkedin.com/in/majd-younan-5713a1239" target="_blank">
+        <img class="icon" src="img/icon/linkedin.png" width="40" alt="linkedin"></a>
+      <a href="https://www.facebook.com/ThomasMoreBE/" target="_blank">
+        <img class="icon" src="img/icon/fb.png" width="40" alt="facebook"></a>
+      <a href="https://www.behance.net/search/projects?search=thomas%20more%20university" target="_blank">
+        <img class="icon" src="img/icon/be.png" width="40" alt="behance"></a>
+      <a href="https://www.pinterest.com/thomasmorebe/" target="_blank">
+        <img class="icon" src="img/icon/pinterest.png" width="40" alt="pinterest"></a>
     </div>
 
   </section>
 
   <div class="zigzag"> <img src="img/icon/zigzag.png" alt="" width="160"></div>
 
-  <h2>Mijn nieuwste werk</h2>
-
-<!-----------section2----------->
+  <!-----------section2----------->
 
 
 <div class="row">
   <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-      <a href="sites/Basquiat/basqiat.html" target="_blank" class="custom-link"><div class="card">
-          <img src="img/Basquiat.png" class="card-img-top" alt="Item 1 Image">
+      <a href="cv.html" class="custom-link"><div class="card">
+          <img src="img/cv-ervaring.jpg" class="card-img-top" alt="Item 1 Image">
           <div class="card-body" style="height: 150px;">
-              <h5 class="card-title">Jean-Michel Basquiat</h5>
-              <p class="card-text">Jean-Michel Basquiat, was a Haitian-American artist, musician, and producer.</p>
+              <h5 class="card-title">CV & Ervaring</h5>
+              <p class="card-text">Hier vindt u meer info over mij, mijn studies, ervaring en mijn webdesign projecten</p>
           </div>
       </div></a>
   </div>
 
   <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-    <a href="sites/pantonOplossing/panton.html" target="_blank" class="custom-link"><div class="card">
-          <img src="img/PANTON.png" class="card-img-top" alt="Item 2 Image">
+    <a href="hobbies.html" class="custom-link"><div class="card">
+          <img src="img/instrument.jpg" class="card-img-top" alt="Item 2 Image">
           <div class="card-body" style="height: 150px;">
-              <h5 class="card-title">Verner Panton</h5>
-              <p class="card-text">Verner Panton (1926-1998) was an inspirational and colourful personality.</p>
+              <h5 class="card-title">Hobbies</h5>
+              <p class="card-text">Hier kunt u zien wat mijn hobbies zijn, wat ik kan doen en waar ik van hou</p>
           </div>
       </div></a>
   </div>
 
   <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-    <a href="sites/designers/republic.html" target="_blank" class="custom-link"><div class="card">
-          <img src="img/The Designers Republic.png" class="card-img-top" alt="Item 3 Image">
+    <a href="contact.html" class="custom-link"><div class="card">
+          <img src="img/social-media.jpg" class="card-img-top" alt="Item 3 Image">
           <div class="card-body" style="height: 150px;">
-              <h5 class="card-title">The Designers Republic</h5>
-              <p class="card-text">The Designers Republic (TDR) is a graphic design studio based in Sheffield.</p>
+              <h5 class="card-title">Contact</h5>
+              <p class="card-text">Vragen hebben? Projecten? Wilt u iets zeggen? Ik zou graag van u horen</p>
           </div>
       </div></a>
   </div>
@@ -94,6 +105,37 @@
 
 
 </main>
+
+
+<!---------footer---------->
+
+<footer>
+  <hr style="color: #fca311;">
+  <div class="row">
+    <div class="col">
+      &copy; Majd Younan
+    </div>
+    <div class="col">
+      <p><a href="mailto:r0933912@student.thomasmore.be" style="text-decoration: none; color: white;">majd2000younan@gmail.com</p></a>
+      <p><a href="tel:(123) 456-7890" style="text-decoration: none; color: white;">0487935173</p></a>
+    </div>
+    <div class="col">
+      <a href="https://www.instagram.com/majd_younan/?hl=en" target="_blank">
+        <img class="icon" src="img/icon/instagram.png" width="20" alt="instagram"></a>
+      <a href="https://be.linkedin.com/in/majd-younan-5713a1239" target="_blank">
+        <img class="icon" src="img/icon/linkedin.png" width="20" alt="linkedin"></a>
+      <a href="https://www.facebook.com/ThomasMoreBE/" target="_blank">
+        <img class="icon" src="img/icon/fb.png" width="20" alt="facebook"></a>
+      <a href="https://www.behance.net/search/projects?search=thomas%20more%20university" target="_blank">
+        <img class="icon" src="img/icon/be.png" width="20" alt="behance"></a>
+      <a href="https://www.pinterest.com/thomasmorebe/" target="_blank">
+        <img class="icon" src="img/icon/pinterest.png" width="20" alt="pinterest"></a>
+    </div>
+  </div>
+</footer>
+
+
+
 
 </div>
 
